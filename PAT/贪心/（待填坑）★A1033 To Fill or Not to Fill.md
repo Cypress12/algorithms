@@ -1,4 +1,4 @@
-已知起点和终点的距离为D，油箱的最大容量为Cmax，单位汽油能够支持前进Davg。给定N个加油站的单位油价和离起点的距离，汽车初始时刻处于起点位置，油箱为空，且可以在任意加油站购买任意量汽油（不超过油箱容量），求从起点到终点的最小花费。如果无法到达终点，输出能够行驶的最远距离。
+已知起点和终点的距离为D，油箱的最大容量为Cmax，单位汽油能够支持前进Davg。给定N个加油站的单位油价和离起点的距离，汽车初始时刻处于起点位置，油箱为空，且可以在任意加油站购买任意量汽油（不超过油箱容量），求从起点到终点的最小花费。如果无法到达终点，输出能够行驶的最远距离。Cancel changes
 ### 输入格式
 Each input file contains one test case. For each case, the first line contains 4 positive numbers: Cmax(≤ 100), the maximum capacity of the tank; D (≤30000), the distance between Hangzhou and the destination city; Davg(≤20), the average distance per unit gas that the car can run; and N (≤ 500), the total number of gas stations. Then N lines follow, each contains a pair of non-negative numbers: P<sub>i</sub>, the unit gas price, and D<sub>i</sub>(≤D), the distance between this station and Hangzhou, for i=1,⋯,N. All the numbers in a line are separated by a space.
 ### 输出格式
