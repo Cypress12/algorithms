@@ -73,8 +73,7 @@ int main()
         }
         else
             num[top.layer]++;
-        if (top.layer>maxlayer)
-            maxlayer = top.layer;
+        maxlayer = max(maxlayer,top.layer);
     }
     for (i=0;i<=maxlayer;i++)
     {
