@@ -31,7 +31,7 @@ For each test case, print all the paths with weight S in non-increasing order. E
 
 ### 题解
 ```
-//必须把得到的路径保存下来再排序，输入时按照结点权值从大到小排序并且边遍历路径边输出的方法会导致最后一个测试点答案错误
+//必须把得到的路径保存下来再排序，输入时按照结点权值从大到小排序的方法会导致最后一个测试点答案错误
 #include <cstdio>
 #include <cstring>
 #include <algorithm>
