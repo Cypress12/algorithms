@@ -16,6 +16,10 @@ For each test case, output in one line the largest sum, together with the first 
 
 ### 题解
 ```
+//Input 2 3 0 0 0  Output 5 2 3
+//Input -1 0 0 2 3  Output 5 0 3
+//Input -1 -2 0 Output 0 0 0
+//Input 5 Output 5 5 5
 #include<iostream>
 #include<set>
 #include<string>
